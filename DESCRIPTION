@@ -1,0 +1,15 @@
+Package: shinypkg
+Type: Package
+Title: Distribute a shinyapp as a package
+Version: 0.1.0
+Author: Michael Bird
+Maintainer: Michael Bird <michaelbird101@gmail.com>
+Description: Shiny app does nothing, but can be dsitributed via package. 
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    graphics,
+    datasets
+RoxygenNote: 7.2.3
